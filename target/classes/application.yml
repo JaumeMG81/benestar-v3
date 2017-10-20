@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_dockers_prova
+    username: jmg
+    password: jmg
+    initialize: false
+
+---
+spring:
+  profiles: container
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://app-db:3306/benestar
+    username: jmg
+    password: jmg
+    initialize: true
