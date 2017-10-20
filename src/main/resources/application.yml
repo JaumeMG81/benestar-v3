@@ -10,6 +10,9 @@ spring:
 
 ---
 spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
   profiles: container
   #jpa:
     #hibernate:
@@ -19,3 +22,6 @@ spring:
     username: jmg
     password: jmg
     initialize: true
+
+server:
+  contextPath:
