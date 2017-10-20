@@ -11,9 +11,9 @@ spring:
 ---
 spring:
   profiles: container
-  jpa:
-    hibernate:
-      ddl-auto: create
+  #jpa:
+    #hibernate:
+      #ddl-auto: create
   datasource:
     url: jdbc:mysql://app-db:3306/benestar
     username: jmg
