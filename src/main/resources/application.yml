@@ -13,7 +13,7 @@ spring:
   #jackson:
     #serialization:
       #INDENT_OUTPUT: true
-  profiles: container
+  #profiles: container
   #jpa:
     #hibernate:
       #ddl-auto: create
